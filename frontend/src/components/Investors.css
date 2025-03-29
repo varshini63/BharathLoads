@@ -1,0 +1,458 @@
+
+.investors-container {
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .investors-hero {
+    background-color: #2351B5;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/020/149/729/small/graph-chart-with-moving-up-arrow-stock-market-financial-investment-diagram-on-blue-background-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px 50px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 50px;
+  }
+  
+  .investors-hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .investors-divider {
+    width: 80px;
+    height: 4px;
+    background-color: #FFD700;
+    margin: 0 auto 20px;
+  }
+  
+  .investors-subtitle {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+
+  .investors-main {
+    padding: 0 20px 50px;
+  }
+  
+  .investors-main h2 {
+    font-size: 32px;
+    color: #2351B5;
+    margin-bottom: 25px;
+    position: relative;
+  }
+  
+  .investment-opportunity {
+    margin-bottom: 60px;
+  }
+  
+  .opportunity-description {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-bottom: 40px;
+  }
+  
+
+  .investment-points {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .investment-point {
+    flex: 1;
+    min-width: 250px;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .investment-point:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .point-icon {
+    font-size: 36px;
+    color: #2351B5;
+    margin-bottom: 15px;
+  }
+  
+  .investment-point h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #1A3A8F;
+  }
+  
+  .investment-point p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+
+  .market-analysis {
+    display: flex;
+    margin-bottom: 60px;
+    background-color: #f5f8ff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .analysis-content {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .analysis-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .market-stats {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .stat-box {
+    flex: 1;
+    min-width: 120px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .stat-box h3 {
+    font-size: 24px;
+    color: #2351B5;
+    margin-bottom: 10px;
+  }
+  
+  .stat-box p {
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #555;
+  }
+  
+  .growth-chart {
+    flex: 1;
+    min-height: 300px;
+    background-color: #e6ebf7;
+    background-image: url('https://www.pngall.com/wp-content/uploads/2017/01/Growth-Chart-Free-Download-PNG.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .testimonial-section {
+    margin-bottom: 60px;
+  }
+  
+  .testimonial-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    position: relative;
+  }
+  
+  .quote-icon {
+    font-size: 40px;
+    color: #2351B5;
+    opacity: 0.2;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .testimonial-text {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    font-style: italic;
+    padding-left: 20px;
+  }
+  
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+  }
+  
+  .author-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-right: 15px;
+    background-image: url('https://gimgs2.nohat.cc/thumb/f/640/if-you-are-self-employed-passport-size-photo-cartoon--m2i8A0A0N4Z5m2H7.jpg');
+    background-size: cover;
+  }
+  
+  .author-info h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .author-info p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+  }
+  
+  .financial-highlights {
+    margin-bottom: 60px;
+  }
+  
+  .highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+  }
+  
+  .highlight-card {
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+  }
+  
+  .highlight-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .highlight-card h3 {
+    font-size: 20px;
+    color: #2351B5;
+    margin-bottom: 15px;
+  }
+  
+  .highlight-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  .investor-resources {
+    margin-bottom: 60px;
+  }
+  
+  .resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+  }
+  
+  .resource-card {
+    display: flex;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resource-icon {
+    font-size: 24px;
+    color: #2351B5;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+  
+  .resource-content {
+    flex: 1;
+  }
+  
+  .resource-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #1A3A8F;
+  }
+  
+  .resource-content p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .resource-link {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2351B5;
+  }
+  
+  .arrow-icon {
+    margin-left: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .resource-card:hover .arrow-icon {
+    transform: translateX(5px);
+  }
+  
+  .contact-investor {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 60px;
+  }
+  
+  .contact-investor p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .contact-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #2351B5;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .contact-button:hover {
+    background-color: #1A3A8F;
+    transform: translateY(-3px);
+  }
+  
+  .investor-application-section {
+    background-color: #f5f8ff;
+    border-radius: 8px;
+    padding: 40px;
+    margin-bottom: 60px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .application-header {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .application-header h2 {
+    color: #2351B5;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .application-header p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #555;
+  }
+  
+  .investor-application-form {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1A3A8F;
+    background-color: #2351B5;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #2351B5;
+    box-shadow: 0 0 0 2px rgba(35, 81, 181, 0.2);
+    outline: none;
+  }
+  
+  .submit-application {
+    width: 100%;
+    padding: 15px;
+    background-color: #50d0c2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .submit-application:hover {
+    background-color: #3bb8ab;
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 768px) {
+    .investors-hero {
+      padding: 60px 30px;
+    }
+    
+    .investors-hero h1 {
+      font-size: 36px;
+    }
+    
+    .investment-points {
+      flex-direction: column;
+    }
+    
+    .market-analysis {
+      flex-direction: column;
+    }
+    
+    .growth-chart {
+      min-height: 200px;
+    }
+    
+    .resources-grid,
+    .highlights-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .contact-button {
+      width: 100%;
+    }
+  }

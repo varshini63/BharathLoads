@@ -1,0 +1,132 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.app {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1a237e;
+}
+
+.section-header p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: #ff5722;
+  font-weight: 700;
+}
+
+.primary-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #1a237e;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(26, 35, 126, 0.2);
+}
+
+.primary-btn:hover {
+  background-color: #0e1859;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(26, 35, 126, 0.3);
+}
+
+.secondary-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: white;
+  color: #1a237e;
+  border: 2px solid #1a237e;
+  padding: 10px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.secondary-btn:hover {
+  background-color: #f5f5f5;
+  transform: translateY(-2px);
+}
+
+.btn-icon {
+  margin-right: 8px;
+}
+
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.loader {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #1a237e;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+@media (max-width: 768px) {
+  .section-header h2 {
+    font-size: 2rem;
+  }
+  
+  .primary-btn, .secondary-btn {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-header h2 {
+    font-size: 1.8rem;
+  }
+  
+  .section-header p {
+    font-size: 1rem;
+  }
+}
